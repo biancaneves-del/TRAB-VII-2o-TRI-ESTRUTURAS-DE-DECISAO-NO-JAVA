@@ -18,7 +18,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "javac main.java && java main"
+args = "bash run-java.sh"
 
 [workflows.workflow.metadata]
 outputType = "console"
